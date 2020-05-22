@@ -88,7 +88,7 @@ html_post_text="""</div>
 </html>
 """
 
-for url,suffix in [('<img src="https://raw.githubusercontent.com/Daksh/Interactive-Image-Grid/master/','_web'),('<img src="','')]:
+for url,suffix in [('<img src="https://raw.githubusercontent.com/Daksh/Interactive-Image-Grid/master/','_web'),('<img src="../','')]:
 	html_mid_text = ""
 	img_names = list(img_names)
 	for col in range(NUM_COL):
